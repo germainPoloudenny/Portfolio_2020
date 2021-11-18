@@ -1,0 +1,563 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: monospace;
+background-color:#2e253a;
+
+
+}
+
+
+div{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+#top{
+width: 100%;
+margin: 0;
+
+}
+#image_accueil{
+  background-color:#2e253a;
+
+}
+#aube{
+  position: absolute;
+  width: 100%;
+  position: absolute;
+  padding-top: 0% !important;
+
+    z-index: 0;
+
+}
+#moi {
+  padding-top: 40%;
+  position: relative;
+  z-index: 1;
+line-height: 80%;
+  color: #f7c39a;
+  margin-left: 5%;
+
+  font-size:4vw;
+
+}
+
+#portrait{
+  margin-top: 10%;
+    width: 20%;
+  display: block;
+  margin-left: 40%;
+
+  border:.5vw solid #f7c39a ;
+
+}
+#div_portrait{
+  position: relative;
+
+  z-index: 1;
+
+  background-color:#2e253a;
+}
+.p1{
+  color: white;
+  margin-left: 5%;
+
+}
+.icone{
+  width:5%;
+}
+#container1{
+  padding-top:3%;
+
+  width:100%;
+
+  font-size:2.5vw;
+
+
+}
+.row{
+  width:100%;
+  margin-top:3%;
+}
+
+.col p{
+
+  margin-left: 15%;
+}
+
+.row{width:100%;}
+#présentation{
+    margin-top: 5%;
+    font-size:1.3vw;
+    width:50%;
+    text-align: justify;
+
+    line-height: 200%;
+
+}
+#présentation p{
+  width:100%;
+
+
+}
+#présentation .row{
+  width:200%;
+
+
+}
+#présentation .col p{
+  margin-top: 15%;
+}
+#gameProgrammer,#IA{
+  margin-left: 25%;
+  width:50%;
+    border:.5vw solid #f7c39a ;
+
+}
+#IA{
+  margin-top: 5%;
+}
+#devise_contraste2{
+  width:100%;
+
+}
+#devise{
+
+    text-align:center;
+  font-size:3vw;
+    color: #f7c39a;
+    font-style:italic;
+
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 23%;
+      z-index:2;
+
+
+
+
+}
+#contraste2{
+  margin-top: 11%;
+    position: absolute;
+    width: 100%;
+    height: 30vw;
+  z-index:-1;
+}
+#contraste2 img{
+
+  width:100%;
+}
+#diplômes{
+
+  text-align:center;
+  font-size:4vw;
+
+  font-style:italic;
+color: #f7c39a;
+
+  margin-top: 30%;
+
+    z-index:2;
+      left: 10%;
+  line-height: 100%;
+}
+#diplômes span{
+  color : white;
+    font-size:2vw;
+    text-align: center;
+
+}
+#diplômes span img{
+
+  width:20%;
+  border:.5vw solid #f7c39a ;
+
+}
+#pacman{
+  height:120vw;
+  width:100%;
+  position:absolute;
+    z-index:10;
+
+}
+#pacman img{
+  width:10%;
+
+
+
+}
+#compétences .row{
+  width: 100%;
+  padding: 0 !important;
+  margin-left: 0 !important;
+
+}
+#compétences #col1{
+  text-align:center;
+  font-size:4vw;
+width: 100%;
+  font-style:italic;
+color: #f7c39a;
+padding: 0 !important;
+
+}
+#compétences {
+  color : white;
+    font-size:2vw;
+    text-align: center;
+  padding: 0 ;
+}
+.iconesComp{
+  width:10%;
+}
+#compétences #row1 .col{
+  font-weight: bold;
+  margin-top: 5%;
+
+}
+#nyancat{
+  margin-top: 40%;
+  width:50%;
+  margin-left:50%;
+  position:absolute;
+  z-index: 1;
+
+}
+#langages  {
+  position: absolute;
+
+  z-index: -1;
+  font-style:italic;
+color: #f7c39a;
+
+  width:100%;
+}
+
+#langages  p{
+      margin-left: 5%;
+
+    text-align: center;
+  font-size:3vw;
+    color:white;
+
+}
+#langages #titre{
+  text-align:center;
+  font-size:4vw;
+
+  font-style:italic;
+color: #f7c39a;
+margin-top: 10%;
+}
+.flag{
+  width:15vw;
+    border:.5vw solid #f7c39a ;
+
+}
+
+#langages .col {
+
+}
+#langages .row{
+
+}
+#contraste3{
+  margin-top: 45%;
+    position: absolute;
+    z-index:-6;
+      width:100%;
+}
+#contraste3 img{
+
+  width:100%;
+
+}
+#projets {
+
+  margin-top: 70%;
+  z-index: -5;
+
+}
+#projets p{
+    font-size:4vw;
+
+  font-style:italic;
+color: #f7c39a;
+margin-left: 40%;
+position: absolute;
+  z-index:-3;
+}
+
+#background{
+z-index: 2;
+  position: absolute;
+
+  width:35%;
+  height: 55%;
+
+  z-index: -1;
+    border:.5vw solid black;
+}
+#titreJeu{
+
+  width: 60%;
+  height: 40%;
+z-index: 3;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+}
+
+#jeu{
+  margin-top: 20%;
+
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+  width:35%;
+
+
+}
+#jeu span{
+position: absolute;
+font-size: 2.5vw;
+margin-top: -20%;
+margin-left: 20%;
+}
+#jeu #background{
+  height: 25vw;
+}
+#voir{
+  background-color: white;
+  border:.3vw solid black;
+  width:20%;
+  height: 7vw;
+  position: absolute;
+
+  margin-left:  7.5%;
+  margin-top: 3vw;
+  color: black;
+  font-size: 1vw;
+  z-index: 0.5!important;
+  max-height: none !important;
+
+}
+#voir:hover{
+margin-top: 3%;
+margin-left: 7%;
+  width:21%;
+  height: 8vw;
+
+}
+
+.clock{
+  position: absolute;
+
+}
+#clock1{
+  z-index: -2;
+  width:15%;
+  margin-left: 40%;
+
+}
+#clock2{
+  z-index: -2;
+    width:17%;
+    margin-top:  -13%;
+    margin-left: 34%;
+}
+#clock3{
+  z-index: -1;
+  width:25%;
+  margin-left: -21%;
+  margin-top: 0;
+}
+#perso{
+  position: absolute;
+  z-index: -1;
+  width: 5%;
+
+  margin-top: -20.9%;
+}
+a:link{
+   text-decoration:none !important;
+
+}
+#cardgame span{
+  color:#FF6347;
+  font-family: 'yo';
+}
+#cardgame{
+  margin-top: 30%;
+text-align: center;
+font-size:3vw;
+
+
+
+
+}
+@font-face {
+
+  font-family: 'yo';
+  src:url(fonts/OCRAStd.woff) format('woff') ;
+
+}
+#card1{
+  position: absolute;
+  left: 42%;
+
+}
+#card2{
+    position: absolute;
+    left: 32%;
+    z-index: -1;
+}
+#card3{
+  left: 52%;
+  z-index: -1;
+}
+.card{
+  margin-top:10%;
+  width: 15%;
+}
+#firefox{
+  margin-top: -10%;
+margin-left: -50%;
+  position: absolute;
+  width: 30%;
+}
+#bulle{
+
+  position: absolute;
+
+  width: 40%;
+  margin-left: -30%;
+  margin-top: 2%;
+}
+#cardgame #dialogue p{
+  all:inherit;
+  margin-top: 10%;
+  position: absolute;
+  color:black;
+  font-size:1vw;
+  margin-left: -22%;
+margin-right: 45%;
+
+}
+#voir2{
+  background-color:#FF6347 ;
+  border:.3vw solid black;
+  width:20%;
+height: 7vw;
+  position: absolute;
+
+  margin-left:  65%;
+  margin-top: 10%;
+  color: black;
+    font-size: 1vw;
+}
+#voir2:hover{
+  margin-left:  64.5%;
+  margin-top: 9.75%;
+    width:21%;
+    height: 8vw;
+
+}
+#sitePHP{
+  margin-top: 30%;
+text-align: center;
+font-size:3vw;
+
+}
+#vikgame{
+    border:.5vw solid #f7c39a ;
+}
+#resumePHP{
+text-align: justify;
+  font-size:1.5vw;
+}
+#qualités ul,#passions ul{
+
+  list-style: none;
+    font-size:3.5vw;
+
+    color: white;
+    padding-top: 10%;
+      text-align:center;
+
+
+}
+#qualités li, #passions li{
+      margin-top: 3%;
+}
+#qualités p, #passions p{
+
+  text-align:center;
+  font-size:4vw;
+
+  font-style:italic;
+color: #f7c39a;
+
+
+}
+#resume{
+  position: absolute;
+margin-top: 10%;
+margin-left: 5%;
+width:25%;
+text-align: left;
+  font-size:1vw;
+
+
+}
+#qualités, #passions  {
+  margin-top: 20%;
+}
+#passions {
+  margin-top: 10%;
+}
+#lave{
+  margin-top: -5%;
+  width:100%;
+  height: 37vw;
+  position: absolute;
+  z-index: -1;
+}
+#bouton_accueil, #cvfr,#cven{
+
+  background-color: #982a2a;
+  margin-top: 22%;
+  border:.3vw solid #cb5d5d;
+  z-index: 5;
+  width:20%;
+height: 7vw;
+  margin-left: 60%;
+  font-size: 3vw;
+  color: #f47e1b;
+  position: absolute;
+
+}
+#bouton_accueil:hover,#cvfr:hover,#cven:hover{
+  width:21%;
+  height: 8vw;
+  margin-top: 21.5%;
+}
+#bouton_accueil{
+    margin-left: 60%;
+}
+#cvfr{
+
+  margin-left: 10% ;
+}
+#cven{
+
+  margin-left:35%;
+}
